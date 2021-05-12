@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+aws:
+  paramstore:
+    enabled: true
+    name: ${spring.application.name}
+    prefix: /config
+    profile-separator: '_'
+custom:
+  constant: IN-AWS

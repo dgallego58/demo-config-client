@@ -1,0 +1,5 @@
+aws:
+  paramstore:
+    enabled: false
+custom:
+  constant: IN-REPO
